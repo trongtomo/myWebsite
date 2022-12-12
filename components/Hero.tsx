@@ -26,7 +26,7 @@ export default function Hero(): ReactElement {
   return (
     <div>
       <h1 className="sr-only">
-        Hello I'm Dale Larroder, I'm a software engineer, and I love building things for the web.
+        Hello I'm Trong Nguyen, I'm a software engineer, and I love...? What i love... hmm... .
       </h1>
       <motion.div
         className="relative z-10 flex h-[calc(100vh-81px)] md:h-[calc(100vh-116px)] items-center"
@@ -41,12 +41,12 @@ export default function Hero(): ReactElement {
               <div ref={ref} className="flex flex-col space-y-2 cursor-default">
                 <FadeUp duration={0.6}>
                   <h1 className="font-semibold text-5xl sm:text-7xl md:text-8xl xl:text-9xl">
-                    Dale Larroder
+                    Trong Nguyen
                   </h1>
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
                   <h2 className="font-medium opacity-80 text-3xl sm:text-6xl md:text-6xl xl:text-7xl">
-                    I build things for the web.
+                    I may have something you're interested in.
                   </h2>
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>
@@ -54,7 +54,7 @@ export default function Hero(): ReactElement {
                     href="/about"
                     className="underline-magical cursor-pointer w-max text-md sm:text-lg md:text-xl xl:text-2xl"
                   >
-                    Read more about me &rarr;
+                    Or maybe not? &rarr;
                   </Link>
                 </FadeRight>
               </div>

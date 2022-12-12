@@ -20,11 +20,11 @@ export const workTiles: WorkTile[] = [
   },
   {
     description: 'I helped build',
-    title: 'Aphex Field',
+    title: 'AesirX DMA',
     image: {
-      src: '/static/images/field-app.webp',
+      src: '/static/images/dma.webp',
       width: 600,
-      height: 554,
+      height: 710,
     },
   },
   {
