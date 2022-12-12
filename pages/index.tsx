@@ -11,6 +11,7 @@ import HomeLayout from '@/layouts/HomeLayout'
 import { allCoreContent, sortedBlogPost } from '@/lib/utils/contentlayer'
 import { allBlogs } from 'contentlayer/generated'
 import { InferGetStaticPropsType } from 'next'
+// import ScrollToTop from '@/components/ScrollToTop/ScrollToTop'
 
 export const getStaticProps = async () => {
   const sortedPosts = sortedBlogPost(allBlogs)
@@ -22,13 +23,13 @@ export const getStaticProps = async () => {
 export default function Home({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
+      {/* <ScrollToTop /> */}
       <PageSEO title={siteMetadata.author} description={siteMetadata.description} />
       <SectionContainer>
         <Header />
       </SectionContainer>
       <Hero />
       <Intro />
-      <Works />
       <HomeLayout>
         <RecentPosts posts={posts} />
         <TopTracks />
