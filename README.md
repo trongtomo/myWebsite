@@ -1,5 +1,5 @@
-# dalelarroder.com ⚡️
-
+# trongtomo.com ⚡️
+This is my fork from [dalelarroder](https://www.dalelarroder.com/), kudos to him!
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Clone this repo
+1. Clone dalelarroder repo
 
 ```bash
 git clone git@github.com:dlarroder/dalelarroder.git
@@ -65,13 +65,6 @@ Don't forget to give the project a star! Thanks again!
 
 ![Screen Shot 2022-07-04 at 10 52 02 AM](https://user-images.githubusercontent.com/52998821/177234494-f6bc0203-ba71-4f59-8eb7-6375e3784b31.png)
 
-## Previous Version
-
-This is the second version of my website.
-
-Prevoius v1 version:
-
-- https://v1.dalelarroder.com/
 
 ## Licence
 
