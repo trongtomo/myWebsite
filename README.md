@@ -1,5 +1,5 @@
-# dalelarroder.com ⚡️
-
+# trongtomo.com ⚡️
+This is my fork from [dalelarroder](https://www.dalelarroder.com/), kudos to him!
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Clone this repo
+1. Clone dalelarroder repo
 
 ```bash
 git clone git@github.com:dlarroder/dalelarroder.git
