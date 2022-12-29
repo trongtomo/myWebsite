@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'trongtomo',
   author: 'trongtomo',
   headerTitle: 'trongtomo',
-  description: 'Software Engineer at Aphex',
+  description: 'Software Engineer at Phu My Phuong',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://trongtomo.com',
