@@ -1,5 +1,5 @@
 # trongtomo.com ⚡️
-This is my fork from [dalelarroder](https://www.dalelarroder.com/), kudos to him!
+This is my fork from [dalelarroder](https://github.com/dlarroder/dalelarroder), kudos to him!
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
