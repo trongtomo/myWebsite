@@ -31,7 +31,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
       <Hero />
       <Intro />
       <HomeLayout>
-        <RecentPosts posts={posts} />
+       {/* <RecentPosts posts={posts} /> */}
         <TopTracks />
       </HomeLayout>
     </>
