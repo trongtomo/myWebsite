@@ -1,5 +1,7 @@
 # trongtomo.com ⚡️
+
 This is my fork from [dalelarroder](https://github.com/dlarroder/dalelarroder), kudos to him!
+
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
@@ -64,7 +66,6 @@ Don't forget to give the project a star! Thanks again!
 ## Lighthouse Score
 
 ![Screen Shot 2022-07-04 at 10 52 02 AM](https://user-images.githubusercontent.com/52998821/177234494-f6bc0203-ba71-4f59-8eb7-6375e3784b31.png)
-
 
 ## Licence
 
