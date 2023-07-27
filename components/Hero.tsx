@@ -46,7 +46,7 @@ export default function Hero(): ReactElement {
                 </FadeUp>
                 <FadeUp duration={0.6} delay={0.2}>
                   <h2 className="font-medium opacity-80 text-3xl sm:text-6xl md:text-6xl xl:text-7xl">
-                    I may have something you're interested in.
+                    Welcome to my page.
                   </h2>
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>
@@ -54,7 +54,7 @@ export default function Hero(): ReactElement {
                     href="/about"
                     className="underline-magical cursor-pointer w-max text-md sm:text-lg md:text-xl xl:text-2xl"
                   >
-                    Or maybe not? &rarr;
+                    My persona is here &rarr;
                   </Link>
                 </FadeRight>
               </div>
