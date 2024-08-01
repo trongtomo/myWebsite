@@ -39,19 +39,19 @@ export default function Intro() {
       <div className="min-h-screen max-w-5xl mx-auto px-10 lg:px-20 py-24 md:py-28 lg:py-3 flex flex-col justify-center items-center text-4xl md:text-6xl lg:text-7xl tracking-tight font-semibold">
         <div className="leading-[1.15]">
           <div className="introText" style={{ opacity: opacityForBlock(progress, 0) }}>
-            Embracing the journey of continuous learning
+            1 years of experience as FullStack Developer
           </div>
           <span
             className="introText inline-block after:content-['_']"
             style={{ opacity: opacityForBlock(progress, 1) }}
           >
-            Confidently utilizing language skills
+            I specialize in Node.js and Next.js
           </span>
           <span
             className="introText inline-block"
             style={{ opacity: opacityForBlock(progress, 2) }}
           >
-            Passionate about crafting and bringing ideas
+            I graduated at FPT University with major software engineer
           </span>
         </div>
       </div>
