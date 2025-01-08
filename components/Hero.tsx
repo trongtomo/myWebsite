@@ -51,8 +51,10 @@ export default function Hero(): ReactElement {
                 </FadeUp>
                 <FadeRight duration={0.5} delay={0.8}>
                   <Link
-                    href="/about"
+                    href="/static/test.pdf"
                     className="underline-magical cursor-pointer w-max text-md sm:text-lg md:text-xl xl:text-2xl"
+                    target="_blank" // Opens the PDF in a new tab
+                    rel="noopener noreferrer" // Improves security
                   >
                     My persona is here &rarr;
                   </Link>
