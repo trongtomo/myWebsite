@@ -29,11 +29,11 @@ export default function Tags({ tags }: InferGetStaticPropsType<typeof getStaticP
           {Object.keys(tags).length === 0 && 'No tags found.'}
           {sortedTags.map((t) => {
             return (
-              <div key={t} className="mt-2 mb-2 mr-5">
+              <div key={t} className="mt-2 mb-2 mr-5 flex items-center">
                 <Tag text={t} />
                 <Link
                   href={`/tags/${kebabCase(t)}`}
-                  className="-ml-2 text-sm font-semibold text-gray-600 uppercase dark:text-gray-300"
+                  className="ml-1 text-sm font-semibold text-gray-600 uppercase dark:text-gray-300"
                 >
                   {` (${tags[t]})`}
                 </Link>

@@ -8,7 +8,6 @@ import ThemeSwitch from './ThemeSwitch'
 
 export default function Header() {
   const router = useRouter()
-
   return (
     <header className="py-5 md:py-10 z-40 bg-transparent">
       <div className="flex items-center justify-between max-w-5xl mx-auto">
@@ -28,9 +27,18 @@ export default function Header() {
         </div>
         <div className="flex items-center text-base leading-5 space-x-3">
           <div className="hidden sm:flex space-x-5">
-            {headerNavLinks.map(({ title, href }) => {
+            {headerNavLinks.map(({ title, href, greyedOut }) => {
               const active = router.pathname.includes(href)
-              return (
+              return greyedOut ? (
+                <span
+                  key={title}
+                  className={classNames('text-gray-500 dark:text-gray-400 cursor-not-allowed', {
+                    'font-bold tracking-wide': true,
+                  })}
+                >
+                  {title}
+                </span>
+              ) : (
                 <Link
                   key={title}
                   href={href}
