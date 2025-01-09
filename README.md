@@ -1,4 +1,4 @@
-# trongtomo.com ⚡️
+# trongtomo.me ⚡️
 
 This is my fork from [dalelarroder](https://github.com/dlarroder/dalelarroder), kudos to him!
 
